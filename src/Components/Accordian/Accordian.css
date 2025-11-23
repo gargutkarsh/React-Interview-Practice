@@ -1,0 +1,30 @@
+
+.accordianWrapper{
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 450px;
+    margin: 0px auto;
+}
+
+.accordianWrapper .accordianItem{
+    border: 1px solid #d8d8d8;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #F1F1F1;
+    min-width: 400px;
+}
+
+.accordianItem .accordianTitle{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.accordianItem .accordianContent{
+    font-size: 14px;
+    margin-top: 4px;
+    color: #000;
+}
