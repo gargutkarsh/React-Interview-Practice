@@ -3,6 +3,7 @@ import './App.css';
 import { tabs } from './DemoData/TabSwitcherData';
 import Accordian from './Components/Accordian/Accordian';
 import TabSwitcher from './Components/TabSwitcher/TabSwitcher';
+import InputChips from './Components/InputChips/InputChips';
 
 const App = () =>{
   return(
@@ -10,6 +11,7 @@ const App = () =>{
       <div className='container'>
         <Accordian />
         <TabSwitcher tabs={tabs} />
+        <InputChips />
       </div>
     </div>
   )
